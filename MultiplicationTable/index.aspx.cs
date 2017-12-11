@@ -28,9 +28,17 @@ namespace MultiplicationTable
             // validates value
             matrix_base = bases.Any(matrix_base.Contains) ? matrix_base : "decimal";
 
-            _base.Text = matrix_base;
-            _size.Text = matrix_size.ToString();
+            buildMatrix(matrix_base, matrix_size);
 
         }
+
+        private void buildMatrix(string matrix_base, int matrix_size)
+        {
+
+
+
+
+        }
+
     }
 }

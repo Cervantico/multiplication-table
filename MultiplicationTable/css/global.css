@@ -30,3 +30,18 @@
         padding-left: 0;
     }
 }
+
+.content-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/* matrix Styles */
+
+#the_matrix {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
